@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Contact from "./Contact";
 
 function Home2() {
   return (
@@ -85,7 +86,7 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/"
                   target="_blank"
@@ -94,7 +95,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/mustytech01"
