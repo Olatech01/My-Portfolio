@@ -271,6 +271,15 @@ button:focus {
   background-color: transparent !important;
 
 }
+@media (max-width: 767px) {
+  .form{
+    width: 100%;
+    padding: 0 15px;
+  }
+  .hire{
+    font-size: 2rem;
+  }
+}
 
 .home-header {
   padding-top: 80px !important;
